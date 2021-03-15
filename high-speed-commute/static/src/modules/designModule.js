@@ -20,7 +20,7 @@ class DesignModule {
         this.mapCursor = "default";
         this.gridLoaded = false;
         this.gridOverlay = new Image();
-        this.gridOverlay.src = "../design-grid.png";
+        this.gridOverlay.src = "./design-grid.png";
         this.quitting = false;
         this.dragging = false;
         this.gridOverlay.onload = () => {

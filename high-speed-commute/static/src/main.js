@@ -118,7 +118,7 @@ export class Game {
         this.designModule = new DesignModule(this);
         this.spriteSheet = new Image();
         this.background = new Image();
-        this.gameFont = new FontFace("8-bit-pusab-regular", "url('../8-bit-pusab.ttf')");
+        this.gameFont = new FontFace("8-bit-pusab-regular", "url('./8-bit-pusab.ttf')");
         document.fonts.add(this.gameFont);
         this.uictx.textBaseline = "top";
         this.spriteSheetIsLoaded = false;
@@ -131,8 +131,8 @@ export class Game {
         this.windowWidth = window.innerWidth;
         this.windowHeight = window.innerHeight;
         this.breakpoint = "regular";
-        this.background.src = "../bgsheet-sm.png";
-        this.spriteSheet.src = "../spriteSheet.png";
+        this.background.src = "./bgsheet-sm.png";
+        this.spriteSheet.src = "./spritesheet.png";
         // this.uictx.canvas.width = window.innerWidth;
         // this.uictx.canvas.height = window.innerHeight;
         // this.uictx.imageSmoothingEnabled = false;
