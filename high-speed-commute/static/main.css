@@ -1,7 +1,7 @@
 @font-face {
   font-family: "8-bit-pusab-regular";
-  src: url("../8-bit-pusab.ttf") format("woff"),
-    url("../8-bit-pusab.ttf") format("truetype");
+  src: url("./8-bit-pusab.ttf") format("woff"),
+    url("./8-bit-pusab.ttf") format("truetype");
 }
 
 html,
